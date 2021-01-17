@@ -175,7 +175,7 @@
     <string name="user_directory_header">User directory</string>
     <string name="matrix_only_filter">Matrix contacts only</string>
     <string name="no_conversation_placeholder">No conversations</string>
-    <string name="no_contact_access_placeholder">You didn’t allow Element to access your local contacts</string>
+    <string name="no_contact_access_placeholder">You didn’t allow Vivaldi to access your local contacts</string>
     <string name="no_result_placeholder">No results</string>
     <string name="no_more_results">No more results</string>
     <string name="people_no_identity_server">No identity server configured.</string>
@@ -238,7 +238,7 @@
     <string name="call_failed_no_ice_use_alt">Try using %s</string>
     <string name="call_failed_dont_ask_again">Do not ask me again</string>
 
-    <string name="call_failed_no_connection">Element Call Failed</string>
+    <string name="call_failed_no_connection">Vivaldi Call Failed</string>
     <string name="call_failed_no_connection_description">Failed to establish real time connection.\nPlease ask the administrator of your homeserver to configure a TURN server in order for calls to work reliably.</string>
 
     <string name="call_select_sound_device">Select Sound Device</string>
@@ -346,7 +346,7 @@
     <string name="e2e_re_request_encryption_key_sent">Key request sent.</string>
 
     <string name="e2e_re_request_encryption_key_dialog_title">Request sent</string>
-    <string name="e2e_re_request_encryption_key_dialog_content">Please launch Element on another device that can decrypt the message so it can send the keys to this session.</string>
+    <string name="e2e_re_request_encryption_key_dialog_content">Please launch Vivaldi on another device that can decrypt the message so it can send the keys to this session.</string>
 
     <!-- read receipts list Screen -->
     <string name="read_receipts_list">Read Receipts List</string>
@@ -387,7 +387,7 @@
     <string name="settings_call_category">Calls</string>
     <string name="settings_call_show_confirmation_dialog_title">Prevent accidental call</string>
     <string name="settings_call_show_confirmation_dialog_summary">Ask for confirmation before starting a call</string>
-    <string name="settings_call_ringtone_use_app_ringtone">Use default Element ringtone for incoming calls</string>
+    <string name="settings_call_ringtone_use_app_ringtone">Use default Vivaldi ringtone for incoming calls</string>
     <string name="settings_call_ringtone_use_default_stun">Allow fallback call assist server</string>
     <string name="settings_call_ringtone_use_default_stun_sum">Will use "%s" as assist when your home server does not offer one (your IP address will be shared during a call)</string>
     <string name="settings_call_ringtone_title">Incoming call ringtone</string>
@@ -418,14 +418,14 @@
 
     <!-- permissions Android M -->
     <string name="permissions_rationale_popup_title">Information</string>
-    <string name="permissions_rationale_msg_storage">Element needs permission to access your photo and video library to send and save attachments.\n\nPlease allow access on the next pop-up to be able to send files from your phone.</string>
-    <string name="permissions_rationale_msg_camera">Element needs permission to access your camera to take pictures and video calls.</string>
+    <string name="permissions_rationale_msg_storage">Vivaldi needs permission to access your photo and video library to send and save attachments.\n\nPlease allow access on the next pop-up to be able to send files from your phone.</string>
+    <string name="permissions_rationale_msg_camera">Vivaldi needs permission to access your camera to take pictures and video calls.</string>
     <string name="permissions_rationale_msg_camera_explanation">\n\nPlease allow access on the next pop-up to be able to make the call.</string>
-    <string name="permissions_rationale_msg_record_audio">Element needs permission to access your microphone to perform audio calls.</string>
+    <string name="permissions_rationale_msg_record_audio">Vivaldi needs permission to access your microphone to perform audio calls.</string>
     <string name="permissions_rationale_msg_record_audio_explanation">\n\nPlease allow access on the next pop-up to be able to make the call.</string>
-    <string name="permissions_rationale_msg_camera_and_audio">Element needs permission to access your camera and your microphone to perform video calls.\n\nPlease allow access on the next pop-ups to be able to make the call.</string>
-    <string name="permissions_rationale_msg_contacts">Element can check your address book to find other Matrix users based on their email and phone numbers. If you agree to share your address book for this purpose, please allow access on the next pop-up.</string>
-    <string name="permissions_msg_contacts_warning_other_androids">Element can check your address book to find other Matrix users based on their email and phone numbers.\n\nDo you agree to share your address book for this purpose?</string>
+    <string name="permissions_rationale_msg_camera_and_audio">Vivaldi needs permission to access your camera and your microphone to perform video calls.\n\nPlease allow access on the next pop-ups to be able to make the call.</string>
+    <string name="permissions_rationale_msg_contacts">Vivaldi can check your address book to find other Matrix users based on their email and phone numbers. If you agree to share your address book for this purpose, please allow access on the next pop-up.</string>
+    <string name="permissions_msg_contacts_warning_other_androids">Vivaldi can check your address book to find other Matrix users based on their email and phone numbers.\n\nDo you agree to share your address book for this purpose?</string>
 
     <string name="permissions_action_not_performed_missing_permissions">Sorry. Action not performed, due to missing permissions</string>
     <string name="permissions_denied_qr_code">To scan a QR code, you need to allow camera access.</string>
@@ -572,7 +572,7 @@
 
     <string name="people_search_invite_by_id_dialog_title">Invite user by ID</string>
     <string name="people_search_invite_by_id_dialog_description">Please enter one or more email address or Matrix ID</string>
-    <string name="people_search_invite_by_id_dialog_hint">Email or Matrix ID</string>
+    <string name="people_search_invite_by_id_dialog_hint">Email or Vivaldi ID</string>
 
     <!--  Chat -->
     <string name="room_menu_search">Search</string>
@@ -646,7 +646,7 @@
         <item quantity="one">%d selected</item>
         <item quantity="other">%d selected</item>
     </plurals>
-    <string name="malformed_id">Malformed ID. Should be an email address or a Matrix ID like \'@localpart:domain\'</string>
+    <string name="malformed_id">Malformed ID. Should be an email address or a Vivaldi ID like \'@localpart:domain\'</string>
     <string name="room_details_people_invited_group_name">INVITED</string>
     <string name="room_details_people_present_group_name">JOINED</string>
 
@@ -726,7 +726,7 @@
     <string name="settings_app_info_link_title">Application info</string>
     <string name="settings_app_info_link_summary">Show the application info in the system settings.</string>
     <string name="settings_add_3pid_confirm_password_title">Confirm your password</string>
-    <string name="settings_add_3pid_flow_not_supported">You can\'t do this from Element mobile</string>
+    <string name="settings_add_3pid_flow_not_supported">You can\'t do this from Vivaldi mobile</string>
     <string name="settings_add_3pid_authentication_needed">Authentication is required</string>
 
     <string name="settings_emails">Email addresses</string>
@@ -759,7 +759,7 @@
 
     <string name="settings_troubleshoot_test_device_settings_title">Session Settings.</string>
     <string name="settings_troubleshoot_test_device_settings_success">Notifications are enabled for this session.</string>
-    <string name="settings_troubleshoot_test_device_settings_failed">Notifications are not enabled for this session.\nPlease check the Element settings.</string>
+    <string name="settings_troubleshoot_test_device_settings_failed">Notifications are not enabled for this session.\nPlease check the Vivaldi settings.</string>
     <string name="settings_troubleshoot_test_device_settings_quickfix">Enable</string>
 
     <string name="settings_troubleshoot_test_bing_settings_title">Custom Settings.</string>
@@ -770,15 +770,15 @@
 
     <string name="settings_troubleshoot_test_play_services_title">Play Services Check</string>
     <string name="settings_troubleshoot_test_play_services_success">Google Play Services APK is available and up-to-date.</string>
-    <string name="settings_troubleshoot_test_play_services_failed">Element uses Google Play Services to deliver push messages but it doesn’t seem to be configured correctly:\n%1$s</string>
+    <string name="settings_troubleshoot_test_play_services_failed">Vivaldi uses Google Play Services to deliver push messages but it doesn’t seem to be configured correctly:\n%1$s</string>
     <string name="settings_troubleshoot_test_play_services_quickfix">Fix Play Services</string>
 
     <string name="settings_troubleshoot_test_fcm_title">Firebase Token</string>
     <string name="settings_troubleshoot_test_fcm_success">FCM token successfully retrieved:\n%1$s</string>
     <string name="settings_troubleshoot_test_fcm_failed">Failed to retrieved FCM token:\n%1$s</string>
-    <string name="settings_troubleshoot_test_fcm_failed_too_many_registration">[%1$s]\nThis error is out of control of Element and according to Google, this error indicates that the device has too many apps registered with FCM. The error only occurs in cases where there are extreme numbers of apps, so it should not affect the average user.</string>
-    <string name="settings_troubleshoot_test_fcm_failed_service_not_available">[%1$s]\nThis error is out of control of Element. It can occur for several reasons. Maybe it will work if you retry later, you can also check that Google Play Service is not restricted in data usage in the system settings, or that your device clock is correct, or it can happen on custom ROM.</string>
-    <string name="settings_troubleshoot_test_fcm_failed_account_missing">[%1$s]\nThis error is out of control of Element. There is no Google account on the phone. Please open the account manager and add a Google account.</string>
+    <string name="settings_troubleshoot_test_fcm_failed_too_many_registration">[%1$s]\nThis error is out of control of Vivaldi and according to Google, this error indicates that the device has too many apps registered with FCM. The error only occurs in cases where there are extreme numbers of apps, so it should not affect the average user.</string>
+    <string name="settings_troubleshoot_test_fcm_failed_service_not_available">[%1$s]\nThis error is out of control of Vivaldi. It can occur for several reasons. Maybe it will work if you retry later, you can also check that Google Play Service is not restricted in data usage in the system settings, or that your device clock is correct, or it can happen on custom ROM.</string>
+    <string name="settings_troubleshoot_test_fcm_failed_account_missing">[%1$s]\nThis error is out of control of Vivaldi. There is no Google account on the phone. Please open the account manager and add a Google account.</string>
     <string name="settings_troubleshoot_test_fcm_failed_account_missing_quick_fix">Add Account</string>
 
     <string name="settings_troubleshoot_test_token_registration_title">Token Registration</string>
@@ -805,16 +805,16 @@
 
     <string name="settings_troubleshoot_test_service_boot_title">Start on boot</string>
     <string name="settings_troubleshoot_test_service_boot_success">Service will start when the device is restarted.</string>
-    <string name="settings_troubleshoot_test_service_boot_failed">The service will not start when the device is restarted, you will not receive notifications until Element has been opened once.</string>
+    <string name="settings_troubleshoot_test_service_boot_failed">The service will not start when the device is restarted, you will not receive notifications until Vivaldi has been opened once.</string>
     <string name="settings_troubleshoot_test_service_boot_quickfix">Enable Start on boot</string>
 
     <string name="settings_troubleshoot_test_bg_restricted_title">Check background restrictions</string>
-    <string name="settings_troubleshoot_test_bg_restricted_success">Background restrictions are disabled for Element. This test should be run using mobile data (no WIFI).\n%1$s</string>
-    <string name="settings_troubleshoot_test_bg_restricted_failed">Background restrictions are enabled for Element.\nWork that the app tries to do will be aggressively restricted while it is in the background, and this could affect notifications.\n%1$s</string>
+    <string name="settings_troubleshoot_test_bg_restricted_success">Background restrictions are disabled for Vivaldi. This test should be run using mobile data (no WIFI).\n%1$s</string>
+    <string name="settings_troubleshoot_test_bg_restricted_failed">Background restrictions are enabled for Vivaldi.\nWork that the app tries to do will be aggressively restricted while it is in the background, and this could affect notifications.\n%1$s</string>
     <string name="settings_troubleshoot_test_bg_restricted_quickfix">Disable restrictions</string>
 
     <string name="settings_troubleshoot_test_battery_title">Battery Optimization</string>
-    <string name="settings_troubleshoot_test_battery_success">Element is not affected by Battery Optimization.</string>
+    <string name="settings_troubleshoot_test_battery_success">Vivaldi is not affected by Battery Optimization.</string>
     <string name="settings_troubleshoot_test_battery_failed">If a user leaves a device unplugged and stationary for a period of time, with the screen off, the device enters Doze mode. This prevents apps from accessing the network and defers their jobs, syncs, and standard alarms. </string>
     <string name="settings_troubleshoot_test_battery_quickfix">Ignore Optimization</string>
 
@@ -824,7 +824,7 @@
     <string name="settings_notification_privacy_no_background_sync">The apps does <b>not</b> need to connect to the HomeServer in the background, it should reduce battery usage</string>
     <string name="settings_notification_privacy_fcm">• Notifications are sent via Firebase Cloud Messaging</string>
     <string name="settings_notification_privacy_metadata">• Notifications only contain meta data</string>
-    <string name="settings_notification_privacy_secure_message_content">• Message content of the notification is <b>located securely direct from the Matrix homeserver</b></string>
+    <string name="settings_notification_privacy_secure_message_content">• Message content of the notification is <b>located securely direct from the Vivaldi homeserver</b></string>
     <string name="settings_notification_privacy_nosecure_message_content">• Notifications contain <b>meta and message data</b></string>
     <string name="settings_notification_privacy_message_content_not_shown">• Notifications will <b>not show message content</b></string>
 
@@ -849,9 +849,9 @@
     <string name="settings_background_sync">Background synchronization</string>
     <string name="settings_background_fdroid_sync_mode">Background Sync Mode</string>
     <string name="settings_background_fdroid_sync_mode_battery">Optimized for battery</string>
-    <string name="settings_background_fdroid_sync_mode_battery_description">Element will sync in background in way that preserves the device’s limited resources (battery).\nDepending on your device resource state, the sync may be deferred by the operating system.</string>
+    <string name="settings_background_fdroid_sync_mode_battery_description">Vivaldi will sync in background in way that preserves the device’s limited resources (battery).\nDepending on your device resource state, the sync may be deferred by the operating system.</string>
     <string name="settings_background_fdroid_sync_mode_real_time">Optimized for real time</string>
-    <string name="settings_background_fdroid_sync_mode_real_time_description">Element will sync in background periodically at precise time (configurable).\nThis will impact radio and battery usage, there will be a permanent notification displayed stating that Element is listening for events.</string>
+    <string name="settings_background_fdroid_sync_mode_real_time_description">Vivaldi will sync in background periodically at precise time (configurable).\nThis will impact radio and battery usage, there will be a permanent notification displayed stating that Vivaldi is listening for events.</string>
     <string name="settings_background_fdroid_sync_mode_disabled">No background sync</string>
     <string name="settings_background_fdroid_sync_mode_disabled_description">You will not be notified of incoming messages when the app is in background.</string>
     <string name="settings_background_sync_update_error">Failed to update settings.</string>
@@ -934,19 +934,19 @@
     <string name="settings_discovery_category">Discovery</string>
     <string name="settings_discovery_manage">Manage your discovery settings.</string>
     <string name="startup_notification_privacy_title">Notification Privacy</string>
-    <string name="startup_notification_privacy_message">Element can run in the background to manage your notifications securely and privately. This might affect battery usage.</string>
+    <string name="startup_notification_privacy_message">Vivaldi can run in the background to manage your notifications securely and privately. This might affect battery usage.</string>
     <string name="startup_notification_privacy_button_grant">Grant permission</string>
     <string name="startup_notification_privacy_button_other">Choose another option</string>
 
     <string name="startup_notification_fdroid_battery_optim_title">Background Connection</string>
-    <string name="startup_notification_fdroid_battery_optim_message">Element needs to keep a low impact background connection in order to have reliable notifications.\nOn the next screen you will be prompted to allow Element to always run in background, please accept.</string>
+    <string name="startup_notification_fdroid_battery_optim_message">Vivaldi needs to keep a low impact background connection in order to have reliable notifications.\nOn the next screen you will be prompted to allow Vivaldi to always run in background, please accept.</string>
     <string name="startup_notification_fdroid_battery_optim_button_grant">Grant permission</string>
 
     <!-- analytics -->
     <string name="settings_analytics">Analytics</string>
     <string name="settings_opt_in_of_analytics">Send analytics data</string>
-    <string name="settings_opt_in_of_analytics_summary">Element collects anonymous analytics to allow us to improve the application.</string>
-    <string name="settings_opt_in_of_analytics_prompt">Please enable analytics to help us improve Element.</string>
+    <string name="settings_opt_in_of_analytics_summary">Vivaldi collects anonymous analytics to allow us to improve the application.</string>
+    <string name="settings_opt_in_of_analytics_prompt">Please enable analytics to help us improve Vivaldi.</string>
     <string name="settings_opt_in_of_analytics_ok">Yes, I want to help!</string>
 
     <string name="settings_data_save_mode">Data save mode</string>
@@ -997,7 +997,7 @@
     <string name="passwords_do_not_match">Passwords do not match</string>
 
     <string name="settings_emails_and_phone_numbers_title">Emails and phone numbers</string>
-    <string name="settings_emails_and_phone_numbers_summary">Manage emails and phone numbers linked to your Matrix account</string>
+    <string name="settings_emails_and_phone_numbers_summary">Manage emails and phone numbers linked to your Vivaldi account</string>
 
     <string name="settings_delete_notification_targets_confirmation">Are you sure you want to remove this notification target?</string>
 
@@ -1126,10 +1126,10 @@
 
     <!-- Room settings: advanced addresses -->
     <string name="room_settings_addresses_no_local_addresses">This room has no local addresses</string>
-    <string name="room_settings_addresses_add_new_address">New address (e.g #foo:matrix.org")</string>
+    <string name="room_settings_addresses_add_new_address">New address (e.g #foo:vivaldi.aeris-one.fr")</string>
 
     <string name="room_settings_no_flair">This room is not showing flair for any communities</string>
-    <string name="room_settings_add_new_group">New community ID (e.g +foo:matrix.org")</string>
+    <string name="room_settings_add_new_group">New community ID (e.g +foo:vivaldi.aeris-one.fr")</string>
     <string name="room_settings_invalid_group_format_dialog_title">Invalid community ID</string>
     <string name="room_settings_invalid_group_format_dialog_body">\'%s\' is not a valid community ID</string>
 
@@ -1152,7 +1152,7 @@
     <string name="directory_title">Directory</string>
     <string name="settings_theme">Theme</string>
 
-    <!-- matrix error -->
+    <!-- Vivaldi error -->
     <string name="failed_to_load_timeline_position">%s was trying to load a specific point in this room’s timeline but was unable to find it.</string>
 
     <!-- encryption dialog -->
@@ -1335,7 +1335,7 @@
     <string name="widget_integration_missing_parameter">A required parameter is missing.</string>
     <string name="widget_integration_invalid_parameter">A parameter is not valid.</string>
     <string name="integration_manager_not_configured">No integration manager configured.</string>
-    <string name="room_add_matrix_apps">Add Matrix apps</string>
+    <string name="room_add_matrix_apps">Add Vivaldi apps</string>
     <string name="room_manage_integrations">Manage Integrations</string>
     <string name="room_no_active_widgets">No active widgets</string>
     <string name="settings_labs_native_camera">Use native camera</string>
@@ -1382,7 +1382,7 @@
     <string name="command_description_kick_user">Kicks user with given id</string>
     <string name="command_description_nick">Changes your display nickname</string>
     <string name="command_description_markdown">On/Off markdown</string>
-    <string name="command_description_clear_scalar_token">To fix Matrix Apps management</string>
+    <string name="command_description_clear_scalar_token">To fix Vivaldi Apps management</string>
 
     <string name="markdown_has_been_enabled">Markdown has been enabled.</string>
     <string name="markdown_has_been_disabled">Markdown has been disabled.</string>
@@ -1442,7 +1442,7 @@
 
     <!-- Deactivate account screen -->
     <string name="deactivate_account_title">Deactivate Account</string>
-    <string name="deactivate_account_content">This will make your account permanently unusable. You will not be able to log in, and no one will be able to re-register the same user ID. This will cause your account to leave all rooms it is participating in, and it will remove your account details from your identity server. <b>This action is irreversible</b>.\n\nDeactivating your account <b>does not by default cause us to forget messages you have sent</b>. If you would like us to forget your messages, please tick the box below.\n\nMessage visibility in Matrix is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.</string>
+    <string name="deactivate_account_content">This will make your account permanently unusable. You will not be able to log in, and no one will be able to re-register the same user ID. This will cause your account to leave all rooms it is participating in, and it will remove your account details from your identity server. <b>This action is irreversible</b>.\n\nDeactivating your account <b>does not by default cause us to forget messages you have sent</b>. If you would like us to forget your messages, please tick the box below.\n\nMessage visibility in Vivaldi is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.</string>
     <string name="deactivate_account_delete_checkbox">Please forget all messages I have sent when my account is deactivated (Warning: this will cause future users to see an incomplete view of conversations)</string>
     <string name="deactivate_account_prompt_password">To continue, please enter your password:</string>
     <string name="deactivate_account_submit">Deactivate Account</string>
@@ -1505,8 +1505,8 @@
 
     <!-- Key Backup -->
 
-    <string name="keys_backup_passphrase_not_empty_error_message">Please delete the passphrase if you want Element to generate a recovery key.</string>
-    <string name="keys_backup_no_session_error">No Matrix session available</string>
+    <string name="keys_backup_passphrase_not_empty_error_message">Please delete the passphrase if you want Vivaldi to generate a recovery key.</string>
+    <string name="keys_backup_no_session_error">No Vivaldi session available</string>
 
     <string name="keys_backup_setup_step1_title">Never lose encrypted messages</string>
     <string name="keys_backup_setup_step1_description">Messages in encrypted rooms are secured with end-to-end encryption. Only you and the recipient(s) have the keys to read these messages.\n\nSecurely back up your keys to avoid losing them.</string>
@@ -1647,7 +1647,7 @@
 
     <string name="autodiscover_invalid_response">Invalid homeserver discovery response</string>
     <string name="autodiscover_well_known_autofill_dialog_title">"Autocomplete Server Options</string>
-    <string name="autodiscover_well_known_autofill_dialog_message">Element detected a custom server configuration for your userId domain \"%1$s\":\n%2$s</string>
+    <string name="autodiscover_well_known_autofill_dialog_message">Vivaldi detected a custom server configuration for your userId domain \"%1$s\":\n%2$s</string>
     <string name="autodiscover_well_known_autofill_confirm">Use Config</string>
 
     <string name="invalid_or_expired_credentials">You have been logged out due to invalid or expired credentials.</string>
@@ -1743,7 +1743,7 @@
     <string name="group_all_communities">"All Communities"</string>
 
     <string name="room_preview_no_preview">"This room can't be previewed"</string>
-    <string name="room_preview_world_readable_room_not_supported_yet">"The preview of world-readable room is not supported yet in Element"</string>
+    <string name="room_preview_world_readable_room_not_supported_yet">"The preview of world-readable room is not supported yet in Vivaldi"</string>
     <string name="room_preview_not_found">This room is not accessible at this time.\nTry again later, or ask a room admin to check if you have access.</string>
     <string name="room_preview_no_preview_join">"This room can't be previewed. Do you want to join it?"</string>
     <string name="fab_menu_create_room">"Rooms"</string>
@@ -1768,7 +1768,7 @@
 
     <string name="import_e2e_keys_from_file">"Import e2e keys from file \"%1$s\"."</string>
 
-    <string name="settings_sdk_version">Matrix SDK Version</string>
+    <string name="settings_sdk_version">Vivaldi SDK Version</string>
     <string name="settings_other_third_party_notices">Other third party notices</string>
     <string name="navigate_to_room_when_already_in_the_room">You are already viewing this room!</string>
 
@@ -1828,7 +1828,7 @@
     <string name="room_filtering_footer_create_new_direct_message">Send a new direct message</string>
     <string name="room_filtering_footer_open_room_directory">View the room directory</string>
 
-    <string name="room_directory_search_hint">Name or ID (#example:matrix.org)</string>
+    <string name="room_directory_search_hint">Name or ID (#example:vivaldi.aeris-one.fr)</string>
     <string name="user_directory_search_hint">Search by name or ID</string>
 
     <string name="labs_swipe_to_reply_in_timeline">Enable swipe to reply in timeline</string>
@@ -1836,11 +1836,11 @@
 
     <string name="link_copied_to_clipboard">Link copied to clipboard</string>
 
-    <string name="add_by_matrix_id">Add by matrix ID</string>
+    <string name="add_by_matrix_id">Add by Vivaldi ID</string>
     <string name="add_by_qr_code">Add by QR code</string>
     <string name="qr_code">QR code</string>
     <string name="creating_direct_room">"Creating room…"</string>
-    <string name="direct_room_no_known_users">"No result found, use Add by matrix ID to search on server."</string>
+    <string name="direct_room_no_known_users">"No result found, use Add by Vivaldi ID to search on server."</string>
     <string name="direct_room_start_search">"Start typing to get results"</string>
     <string name="direct_room_filter_hint">"Filter by username or ID…"</string>
     <string name="direct_room_user_list_recent_title">Recent</string>
@@ -1910,7 +1910,7 @@
     <string name="a11y_create_menu_open">Open the create room menu</string>
     <string name="a11y_create_menu_close">Close the create room menu…</string>
     <string name="a11y_create_direct_message">Create a new direct conversation</string>
-    <string name="a11y_create_direct_message_by_mxid">Create a new direct conversation by Matrix ID</string>
+    <string name="a11y_create_direct_message_by_mxid">Create a new direct conversation by Vivaldi ID</string>
     <string name="a11y_create_direct_message_by_qr_code">Create a new direct conversation by scanning a QR code</string>
     <string name="a11y_create_room">Create a new room</string>
     <string name="a11y_close_keys_backup_banner">Close keys backup banner</string>
@@ -1968,7 +1968,7 @@
     <string name="content_reported_as_inappropriate_title">"Reported as inappropriate"</string>
     <string name="content_reported_as_inappropriate_content">"This content was reported as inappropriate.\n\nIf you don't want to see any more content from this user, you can ignore them to hide their messages."</string>
 
-    <string name="permissions_rationale_msg_keys_backup_export">Element needs permission to save your E2E keys on disk.\n\nPlease allow access on the next pop-up to be able to export your keys manually.</string>
+    <string name="permissions_rationale_msg_keys_backup_export">Vivaldi needs permission to save your E2E keys on disk.\n\nPlease allow access on the next pop-up to be able to export your keys manually.</string>
 
     <string name="no_network_indicator">There is no network connection right now</string>
 
@@ -2027,7 +2027,7 @@
     <string name="login_continue">Continue</string>
     <!-- Replaced string is the homeserver url -->
     <string name="login_connect_to">Connect to %1$s</string>
-    <string name="login_connect_to_modular">Connect to Element Matrix Services</string>
+    <string name="login_connect_to_modular">Connect to Vivaldi Vivaldi Services</string>
     <string name="login_connect_to_a_custom_server">Connect to a custom server</string>
     <!-- Replaced string is the homeserver url -->
     <string name="login_signin_to">Sign in to %1$s</string>
@@ -2036,11 +2036,11 @@
     <string name="login_signin_sso">Continue with SSO</string>
     <string name="login_clear_homeserver_history">Clear history</string>
 
-    <string name="login_server_url_form_modular_hint">Element Matrix Services Address</string>
+    <string name="login_server_url_form_modular_hint">Vivaldi Vivaldi Services Address</string>
     <string name="login_server_url_form_other_hint">Address</string>
     <string name="login_server_url_form_modular_text">Premium hosting for organisations</string>
-    <string name="login_server_url_form_modular_notice">Enter the address of the Modular Element or Server you want to use</string>
-    <string name="login_server_url_form_other_notice">Enter the address of a server or a Element you want to connect to</string>
+    <string name="login_server_url_form_modular_notice">Enter the address of the Modular Vivaldi or Server you want to use</string>
+    <string name="login_server_url_form_other_notice">Enter the address of a server or a Vivaldi you want to connect to</string>
     <string name="login_server_url_form_common_notice">Enter the address of the server you want to use</string>
 
     <string name="login_sso_error_message">An error occurred when loading the page: %1$s (%2$d)</string>
@@ -2111,8 +2111,8 @@
     <string name="login_signup_cancel_confirmation_title">Warning</string>
     <string name="login_signup_cancel_confirmation_content">Your account is not created yet.\n\nStop the registration process?</string>
 
-    <string name="login_a11y_choose_matrix_org">Select matrix.org</string>
-    <string name="login_a11y_choose_modular">Select Element Matrix Services</string>
+    <string name="login_a11y_choose_matrix_org">Select Vivaldi server</string>
+    <string name="login_a11y_choose_modular">Select Vivaldi Matrix Services</string>
     <string name="login_a11y_choose_other">Select a custom homeserver</string>
     <string name="login_a11y_captcha_container">Please perform the captcha challenge</string>
     <string name="login_terms_title">Accept terms to continue</string>
@@ -2129,11 +2129,11 @@
         <item quantity="other">Too many requests have been sent. You can retry in %1$d seconds…</item>
     </plurals>
 
-    <string name="login_connect_using_matrix_id_notice">Alternatively, if you already have an account and you know your Matrix identifier and your password, you can use this method:</string>
-    <string name="login_connect_using_matrix_id_submit">Sign in with Matrix ID</string>
-    <string name="login_signin_matrix_id_title">Sign in with Matrix ID</string>
-    <string name="login_signin_matrix_id_notice">If you set up an account on a homeserver, use your Matrix ID (e.g. @user:domain.com) and password below.</string>
-    <string name="login_signin_matrix_id_hint">Matrix ID</string>
+    <string name="login_connect_using_matrix_id_notice">Alternatively, if you already have an account and you know your Vivaldi identifier and your password, you can use this method:</string>
+    <string name="login_connect_using_matrix_id_submit">Sign in with Vivaldi ID</string>
+    <string name="login_signin_matrix_id_title">Sign in with Vivaldi ID</string>
+    <string name="login_signin_matrix_id_notice">If you set up an account, use your Vivaldi ID (e.g. @user:vivaldi.aeris-one.fr) and password below.</string>
+    <string name="login_signin_matrix_id_hint">Vivaldi ID</string>
     <string name="login_signin_matrix_id_password_notice">If you don’t know your password, go back to reset it.</string>
     <string name="login_signin_matrix_id_error_invalid_matrix_id">This is not a valid user identifier. Expected format: \'@user:homeserver.org\'</string>
     <string name="autodiscover_well_known_error">Unable to find a valid homeserver. Please check your identifier</string>
@@ -2159,9 +2159,9 @@
     <string name="soft_logout_clear_data_dialog_content">Clear all data currently stored on this device?\nSign in again to access your account data and messages.</string>
     <string name="soft_logout_clear_data_dialog_e2e_warning_content">You’ll lose access to secure messages unless you sign in to recover your encryption keys.</string>
     <string name="soft_logout_clear_data_dialog_submit">Clear data</string>
-    <string name="soft_logout_sso_not_same_user_error">The current session is for user %1$s and you provide credentials for user %2$s. This is not supported by Element.\nPlease first clear data, then sign in again on another account.</string>
+    <string name="soft_logout_sso_not_same_user_error">The current session is for user %1$s and you provide credentials for user %2$s. This is not supported by Vivaldi.\nPlease first clear data, then sign in again on another account.</string>
 
-    <string name="permalink_malformed">Your matrix.to link was malformed</string>
+    <string name="permalink_malformed">Your link was malformed</string>
     <string name="bug_report_error_too_short">The description is too short</string>
 
     <string name="notification_initial_sync">Initial Sync…</string>
@@ -2181,7 +2181,7 @@
     <string name="autocomplete_limited_results">Showing only the first results, type more letters…</string>
 
     <string name="settings_developer_mode_fail_fast_title">Fail-fast</string>
-    <string name="settings_developer_mode_fail_fast_summary">Element may crash more often when an unexpected error occurs</string>
+    <string name="settings_developer_mode_fail_fast_summary">Vivaldi may crash more often when an unexpected error occurs</string>
 
     <string name="command_description_shrug">Prepends ¯\\_(ツ)_/¯ to a plain-text message</string>
 
@@ -2286,9 +2286,9 @@
     <string name="room_member_open_or_create_dm">Direct message</string>
     <string name="room_member_jump_to_read_receipt">Jump to read receipt</string>
 
-    <string name="rendering_event_error_type_of_event_not_handled">"Element does not handle events of type '%1$s'"</string>
-    <string name="rendering_event_error_type_of_message_not_handled">"Element does not handle message of type '%1$s'"</string>
-    <string name="rendering_event_error_exception">"Element encountered an issue when rendering content of event with id '%1$s'"</string>
+    <string name="rendering_event_error_type_of_event_not_handled">"Vivaldi does not handle events of type '%1$s'"</string>
+    <string name="rendering_event_error_type_of_message_not_handled">"Vivaldi does not handle message of type '%1$s'"</string>
+    <string name="rendering_event_error_exception">"Vivaldi encountered an issue when rendering content of event with id '%1$s'"</string>
 
     <string name="unignore">Unignore</string>
 
@@ -2419,7 +2419,7 @@
 
     <string name="keys_backup_restore_success_title_already_up_to_date">Keys are already up to date!</string>
 
-    <string name="login_default_session_public_name">Element Android</string>
+    <string name="login_default_session_public_name">Vivaldi Android</string>
 
     <string name="settings_key_requests">Key Requests</string>
     <string name="settings_export_trail">Export Audit</string>
@@ -2561,7 +2561,7 @@
     <string name="bootstrap_progress_generating_ssss_with_info">Generating SSSS key from passphrase (%s)</string>
     <string name="bootstrap_progress_generating_ssss_recovery">Generating SSSS key from recovery key</string>
     <string name="bootstrap_progress_storing_in_sss">Storing keybackup secret in SSSS</string>
-    <!-- To produce things like 'Element Android (IQDHUVJTTV)' -->
+    <!-- To produce things like 'Vivaldi Android (IQDHUVJTTV)' -->
     <string name="new_session_review_with_info">%1$s (%2$s)</string>
 
     <string name="bootstrap_migration_enter_backup_password">Enter your Key Backup Passphrase to continue.</string>
@@ -2578,11 +2578,11 @@
     <string name="error_saving_media_file">Could not save media file</string>
     <string name="change_password_summary">Set a new account password…</string>
 
-    <string name="use_other_session_content_description">Use the latest Element on your other devices, Element Web, Element Desktop, Element iOS, Element for Android, or another cross-signing capable Matrix client</string>
-    <string name="app_desktop_web">Element Web\nElement Desktop</string>
-    <string name="app_ios_android">Element iOS\nElement Android</string>
-    <string name="or_other_mx_capabale_client">or another cross-signing capable Matrix client</string>
-    <string name="use_latest_app">Use the latest Element on your other devices:</string>
+    <string name="use_other_session_content_description">Use the latest Vivaldi on your other devices, Vivaldi Web, Vivaldi Desktop, Vivaldi iOS, Vivaldi for Android, or another cross-signing capable Vivaldi client</string>
+    <string name="app_desktop_web">Vivaldi Web\nVivaldi Desktop</string>
+    <string name="app_ios_android">Vivaldi iOS\nVivaldi Android</string>
+    <string name="or_other_mx_capabale_client">or another cross-signing capable Vivaldi client</string>
+    <string name="use_latest_app">Use the latest Vivaldi on your other devices:</string>
     <string name="command_description_discard_session">Forces the current outbound group session in an encrypted room to be discarded</string>
     <string name="command_description_discard_session_not_handled">Only supported in encrypted rooms</string>
     <!-- first will be replaced by recovery_passphrase, second will be replaced by recovery_key-->
@@ -2637,11 +2637,11 @@
     <string name="inviting_users_to_room">Inviting users…</string>
     <string name="invite_users_to_room_title">Invite Users</string>
     <string name="invite_friends">Invite friends</string>
-    <string name="invite_friends_text">Hey, talk to me on Element: %s</string>
-    <string name="invite_friends_rich_title">🔐️ Join me on element</string>
+    <string name="invite_friends_text">Hey, talk to me on Vivaldi: %s</string>
+    <string name="invite_friends_rich_title">🔐️ Join me on Vivaldi</string>
     <string name="invitation_sent_to_one_user">Invitation sent to %1$s</string>
     <string name="invitations_sent_to_two_users">Invitations sent to %1$s and %2$s</string>
-    <string name="not_a_valid_qr_code">"It's not a valid matrix QR code"</string>
+    <string name="not_a_valid_qr_code">"It's not a valid Vivaldi QR code"</string>
     <plurals name="invitations_sent_to_one_and_more_users">
         <item quantity="one">Invitations sent to %1$s and one more</item>
         <item quantity="other">Invitations sent to %1$s and %2$d more</item>
@@ -2659,11 +2659,11 @@
 
     <string name="open_terms_of">Open terms of %s</string>
     <string name="disconnect_identity_server_dialog_content">Disconnect from the identity server %s?</string>
-    <string name="identity_server_error_outdated_identity_server">This identity server is outdated. Element support only API V2.</string>
+    <string name="identity_server_error_outdated_identity_server">This identity server is outdated. Vivaldi support only API V2.</string>
     <string name="identity_server_error_outdated_home_server">This operation is not possible. The homeserver is outdated.</string>
     <string name="identity_server_error_no_identity_server_configured">Please first configure an identity server.</string>
     <string name="identity_server_error_terms_not_signed">Please first accepts the terms of the identity server in the settings.</string>
-    <string name="identity_server_error_bulk_sha256_not_supported">For your privacy, Element only supports sending hashed user emails and phone number.</string>
+    <string name="identity_server_error_bulk_sha256_not_supported">For your privacy, Vivaldi only supports sending hashed user emails and phone number.</string>
     <string name="identity_server_error_binding_error">The association has failed.</string>
     <string name="identity_server_error_no_current_binding_error">The is no current association with this identifier.</string>
     <string name="identity_server_user_consent_not_provided">The user consent has not been provided.</string>
@@ -2718,12 +2718,12 @@
     <string name="crypto_error_withheld_generic">You cannot access this message because the sender purposely did not send the keys</string>
     <string name="notice_crypto_unable_to_decrypt_merged">Waiting for encryption history</string>
 
-    <string name="element_disclaimer_title">Riot is now Element!</string>
-    <string name="element_disclaimer_content">We’re excited to announce we’ve changed name! Your app is up to date and you’re signed in to your account.</string>
-    <string name="element_disclaimer_negative_button">GOT IT</string>
-    <string name="element_disclaimer_positive_button">LEARN MORE</string>
+    <string name="Vivaldi_disclaimer_title">Riot is now Vivaldi!</string>
+    <string name="Vivaldi_disclaimer_content">We’re excited to announce we’ve changed name! Your app is up to date and you’re signed in to your account.</string>
+    <string name="Vivaldi_disclaimer_negative_button">GOT IT</string>
+    <string name="Vivaldi_disclaimer_positive_button">LEARN MORE</string>
 
-    <string name="element_login_splash_brand">element</string>
+    <string name="Vivaldi_login_splash_brand">Vivaldi</string>
 
 
     <string name="save_recovery_key_chooser_hint">Save recovery key in</string>
@@ -2735,7 +2735,7 @@
     <string name="loading_contact_book">Retrieving your contacts…</string>
     <string name="empty_contact_book">Your contact book is empty</string>
     <string name="contacts_book_title">Contacts book</string>
-    <string name="phone_book_perform_lookup">Search for contacts on Matrix</string>
+    <string name="phone_book_perform_lookup">Search for contacts on Vivaldi</string>
 
     <string name="three_pid_revoke_invite_dialog_title">Revoke invite</string>
     <string name="three_pid_revoke_invite_dialog_content">Revoke invite to %1$s?</string>
@@ -2766,13 +2766,13 @@
     <string name="settings_security_pin_code_summary">If you want to reset your PIN, tap Forgot PIN to logout and reset.</string>
     <string name="settings_security_pin_code_use_biometrics_title">Enable biometrics</string>
     <string name="settings_security_pin_code_use_biometrics_summary_on">Enable device specific biometrics, like fingerprints and face recognition.</string>
-    <string name="settings_security_pin_code_use_biometrics_summary_off">PIN code is the only way to unlock Element.</string>
+    <string name="settings_security_pin_code_use_biometrics_summary_off">PIN code is the only way to unlock Vivaldi.</string>
     <string name="settings_security_pin_code_notifications_title">Show content in notifications</string>
     <string name="settings_security_pin_code_notifications_summary_on">Show details like room names and message content.</string>
     <string name="settings_security_pin_code_notifications_summary_off">Only display number of unread messages in a simple notification.</string>
     <string name="settings_security_pin_code_grace_period_title">Require PIN after 2 minutes</string>
-    <string name="settings_security_pin_code_grace_period_summary_on">PIN code is required after 2 minutes of not using Element.</string>
-    <string name="settings_security_pin_code_grace_period_summary_off">PIN code is required every time you open Element.</string>
+    <string name="settings_security_pin_code_grace_period_summary_on">PIN code is required after 2 minutes of not using Vivaldi.</string>
+    <string name="settings_security_pin_code_grace_period_summary_off">PIN code is required every time you open Vivaldi.</string>
     <string name="settings_security_pin_code_change_pin_title">Change PIN</string>
     <string name="settings_security_pin_code_change_pin_summary">Change your current PIN</string>
     <string name="auth_pin_confirm_to_disable_title">Confirm PIN to disable PIN</string>
@@ -2791,5 +2791,5 @@
     <string name="warning_unsaved_change">There are unsaved changes. Discard the changes?</string>
     <string name="warning_unsaved_change_discard">Discard changes</string>
 
-    <string name="matrix_to_card_title">Matrix Link</string>
+    <string name="matrix_to_card_title">Vivaldi Link</string>
 </resources>

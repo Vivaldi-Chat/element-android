@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "fr.aerisone.vivaldi",
+  "variantName": "processGplayReleaseResources",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "versionCode": 40100140,
+      "versionName": "1.0.14",
+      "outputFile": "vector-gplay-universal-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 40100141,
+      "versionName": "1.0.14",
+      "outputFile": "vector-gplay-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 40100144,
+      "versionName": "1.0.14",
+      "outputFile": "vector-gplay-x86_64-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "versionCode": 40100143,
+      "versionName": "1.0.14",
+      "outputFile": "vector-gplay-x86-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 40100142,
+      "versionName": "1.0.14",
+      "outputFile": "vector-gplay-arm64-v8a-release.apk"
+    }
+  ]
+}
